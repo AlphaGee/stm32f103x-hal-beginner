@@ -1,18 +1,17 @@
 {
     "version": "2.0.0",
-    "tasks": [
+    "configurations": [
         {
-            "label": "Build",
-            "command": "make -j16 all",
-            "group": "build",
-            "type": "shell"
-        },
-        {
-            "label": "Flash",
-            "command": "openocd -f interface/cmsis-dap.cfg -f target/stm32f1x.cfg -c \"program build/Demo.elf verify reset exit\"",
-            "group": "build",
-            "dependsOn": "Build",
-            "type": "shell"
+            "name": "Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/LED.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/stm32f1x.cfg"
+            ]
         }
     ]
 }
