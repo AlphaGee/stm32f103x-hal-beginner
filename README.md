@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # STM32F103-HAL-BEGINNER
 
 [![Toolchain](https://img.shields.io/badge/arm--none--eabi--gcc-12.3.rel1-brightgreen)](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
@@ -19,3 +20,6 @@ pacman -S mingw-w64-x86_64-arm-none-eabi-gcc mingw-w64-x86_64-openocd make
 ▸ 02-LED-PWM · 定时器PWM呼吸灯  
 ⋮  
 （更多工程持续更新）
+=======
+
+>>>>>>> 31dbe719fdf479f2de0bac95372b2a84051c0536
