@@ -1,17 +1,21 @@
-✨ 核心功能：
+# STM32F103-HAL-BEGINNER
 
-从环境搭建到外设驱动(LED/串口/ADC/PWM等)的阶梯式教程
+[![Toolchain](https://img.shields.io/badge/arm--none--eabi--gcc-12.3.rel1-brightgreen)](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm)
+[![Debugger](https://img.shields.io/badge/OpenOCD-0.12.0-blueviolet)](https://openocd.org/)
+[![Build System](https://img.shields.io/badge/Makefile-4.3-yellow)](https://www.gnu.org/software/make/)
 
-预配置VSCode开发环境
+> STM32 HAL 库学习项目 · VSCode + STM32CubeMX + arm-none-eabi-gcc + OpenOCD + Makefile 开发环境
 
-支持cmsis-dap调试器的OpenOCD调试方案
+## 环境安装 (Windows/Linux)
+### Windows (使用MSYS2)
 
-提供STM32CubeMX工程模板与HAL库实例
+```bash
+pacman -S mingw-w64-x86_64-arm-none-eabi-gcc mingw-w64-x86_64-openocd make
+```
 
-🛠️ 硬件适配：
+## 工程目录
 
-BluePill开发板/STM32F103C8T6最小系统开发板
-
-📚 资源包含：
-
-🔧 快速开始：
+▸ 01-LED-Blink · GPIO控制LED闪烁  
+▸ 02-LED-PWM · 定时器PWM呼吸灯  
+⋮  
+（更多工程持续更新）

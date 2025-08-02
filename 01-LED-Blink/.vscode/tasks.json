@@ -9,7 +9,7 @@
         },
         {
             "label": "Flash",
-            "command": "openocd -f interface/cmsis-dap.cfg -f target/stm32f1x.cfg -c \"program build/LED.elf verify reset exit\"",
+            "command": "openocd -f interface/cmsis-dap.cfg -f target/stm32f1x.cfg -c \"program build/01-LED-Blink.elf verify reset exit\"",
             "group": "build",
             "dependsOn": "Build",
             "type": "shell"
