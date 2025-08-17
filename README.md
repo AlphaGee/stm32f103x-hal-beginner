@@ -14,6 +14,7 @@ pacman -S mingw-w64-x86_64-arm-none-eabi-gcc mingw-w64-x86_64-openocd make
 ## 工程目录  
 ▸ 01-LED-Blink · GPIO控制LED闪烁  
 ▸ 02-LED-PWM · 定时器PWM呼吸灯  
+▸ 03-BUZZER-Music · 蜂鸣器播放音乐  
 ⋮  
 （更多工程持续更新）
 ***
