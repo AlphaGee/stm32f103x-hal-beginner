@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "compare": "c",
+        "note.h": "c",
+        "player.h": "c",
+        "typeinfo": "c",
+        "tim.h": "c",
+        "main.h": "c",
+        "stm32f1xx_hal.h": "c"
+    }
+}
